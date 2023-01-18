@@ -1,11 +1,9 @@
 const { ObjectId } = require("mongodb")
-//const dbName = "Lab_Workshop_Roma" //PER MONGO
-//const coll = "names"  //PER MONGO
-//const dbName = "appl1" //PER ORACLE
-//const coll = "names"   //PER ORACLE
+const dbName = "lab_workshop" // MongoDb
+const coll = "names"  // MongoDb
 
-const dbName = "appl1" //PER ORACLE
-const coll = "names"   //PER ORACLE
+//const dbName = "appl1" // Oracle
+//const coll = "names"   // Oracle
 
 let db
 

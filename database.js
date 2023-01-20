@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb")
 //const uri = "mongodb://localhost:27017" // MongoDb
-const uri = "mongodb://appl1:DataBase__21c@localhost:27018/?authMechanism=PLAIN&authSource=external&retryWrites=false&loadBalanced=true&tls=true&tlsAllowInvalidCertificates=true" // Oracle
+const uri = "mongodb://appl1:<censura>@localhost:27018/?authMechanism=PLAIN&authSource=external&retryWrites=false&loadBalanced=true&tls=true&tlsAllowInvalidCertificates=true" // Oracle
 
 const opts = { useUnifiedTopology: true }
 

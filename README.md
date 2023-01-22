@@ -1,5 +1,4 @@
 # Oracle_Mongo_API_Lab
-<H1>Oracle Mongo API Labi</H1> <br>
 <H2>***WIP WIP WIP WIP***</H2>
 Ripreso da (e quindi i credits spettano a):<br>
   Unlock the power of your application using Oracle Database API for MongoDB<br>

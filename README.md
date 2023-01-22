@@ -23,6 +23,7 @@ ReferenceError: TextEncoder is not defined
     at Object.<anonymous> (/home/oracle/Oracle_Mongo_API_Lab/node_modules/whatwg-url/lib/url-state-machine.js:5:34)
     at Module._compile (internal/modules/cjs/loader.js:778:30)
 </pre>
+allora sostituire il file encoding.js con quello in questa cartell
 <pre>
 [oracle@json21c Oracle_Mongo_API_Lab]$ cp encoding.js /home/oracle/Oracle_Mongo_API_Lab/node_modules/whatwg-url/lib/encoding.js
 </pre> 

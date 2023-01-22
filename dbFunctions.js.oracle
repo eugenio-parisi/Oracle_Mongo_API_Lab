@@ -1,9 +1,9 @@
 const { ObjectId } = require("mongodb")
-const dbName = "lab_workshop" // MongoDb
-const coll = "names"  // MongoDb
+//const dbName = "lab_workshop" // MongoDb
+//const coll = "names"  // MongoDb
 
-//const dbName = "appl1" // Oracle
-//const coll = "names"   // Oracle
+const dbName = "appl1" // Oracle
+const coll = "names"   // Oracle
 
 let db
 

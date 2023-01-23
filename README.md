@@ -4,7 +4,7 @@ Ripreso da (e quindi i credits spettano a):<br>
   Unlock the power of your application using Oracle Database API for MongoDB<br>
   https://luca-bindi.medium.com/unlock-the-power-of-your-application-using-oracle-database-api-for-mongodb-b7932356bac9<br>
 NB:
-se si incontra l'eccezione<br>
+dopo <pre>npm install</pre> e all'atto di far partire il server node probabilmente si incontra l'eccezione<br>
 <pre>
 [oracle@json21c Oracle_Mongo_API_Lab]$ node server.js
 /home/oracle/Oracle_Mongo_API_Lab/node_modules/whatwg-url/lib/encoding.js:3

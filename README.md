@@ -3,8 +3,7 @@
 Ripreso da (e quindi i credits spettano a):<br>
   Unlock the power of your application using Oracle Database API for MongoDB<br>
   https://luca-bindi.medium.com/unlock-the-power-of-your-application-using-oracle-database-api-for-mongodb-b7932356bac9<br>
-NB:
-dopo <pre>npm install</pre> e all'atto di far partire il server node probabilmente si incontra l'eccezione<br>
+Nota per me stesso: ho ancora questa eccezione<br>
 <pre>
 [oracle@json21c Oracle_Mongo_API_Lab]$ node server.js
 /home/oracle/Oracle_Mongo_API_Lab/node_modules/whatwg-url/lib/encoding.js:3
@@ -23,10 +22,10 @@ ReferenceError: TextEncoder is not defined
     at Object.<anonymous> (/home/oracle/Oracle_Mongo_API_Lab/node_modules/whatwg-url/lib/url-state-machine.js:5:34)
     at Module._compile (internal/modules/cjs/loader.js:778:30)
 </pre>
-allora sostituire il file encoding.js con quello in questa cartella
+il file encoding.js incluso in questa cartella, sovrascritto a quello generato da npm install la risolve:
 <pre>
 [oracle@json21c Oracle_Mongo_API_Lab]$ cp encoding.js /home/oracle/Oracle_Mongo_API_Lab/node_modules/whatwg-url/lib/encoding.js
 </pre>
-Nota per me stesso: il punto è che probabilmente la versione di node che sto usando e' probabilmente piu' vecchia di quella usata da Luca e va aggiornata, ricordarsi di farlo prima di fondere le parti liquibase, redaction etc.etc.
+ma il punto è che probabilmente la versione di node che sto usando e' piu' vecchia di quella usata da Luca e va aggiornata; ricordarsi di farlo prima di fondere le parti liquibase, redaction etc.etc.
 
 
